@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todoapp
+spec:
+  selector:
+    matchLabels:
+      app: todoapp
+  template:
+    metadata:
+      labels:
+        app: todoapp
+    spec:
+      containers:
+      - name: todoapp
+        image: shambhavis/todoapp
+        ports:
+        - containerPort: 5000
+        env:
+          - name: MONGO_HOST
+            value: “mongodb-svc”
