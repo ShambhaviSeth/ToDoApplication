@@ -5,7 +5,8 @@
 This project demonstrates the deployment of a web application on Kubernetes using Docker containers. The project involved containerizing a Flask-based To-Do application with MongoDB, deploying it on a local Kubernetes cluster (Minikube), and then scaling it to AWS EKS. The project also explored Kubernetes features including replication controllers, health monitoring, rolling updates, and alerting.
 
 ### Part 1: Creating the Application
-- **Application**: Developed a simple To-Do web application using Flask and MongoDB. {https://github.com/ShambhaviSeth/ToDoApplication/blob/main/app.py}
+- **Application**: Developed a simple To-Do web application using Flask and MongoDB.
+- **Source Code**: https://github.com/ShambhaviSeth/ToDoApplication/blob/main/app.py
 
 ### Part 2: Containerizing the Application with Docker
 1. **Docker Installation**: Installed Docker from the [official website](https://www.docker.com/get-started).
